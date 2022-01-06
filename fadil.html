@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../assets/css/baitaplon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách - Lược sử về loài người</title>
+    <style>
+         #footer p{
+            top: 20px;
+        }
+        body {
+            background: rgb(245,245,245);
+        }
+        #content img{
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #content button {
+            width: 100px;
+            height: 70px;
+            display: inline-block;
+            text-align: center;
+            background: rgb(0, 0, 0);
+            color: yellow;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        #content div {
+            width: 250px;
+            display: inline-block;
+            top: 200px;
+        }
+        #content div .smallimg {
+            width: 100px;
+            height: 100px;
+        }
+        #content .anhnho {
+            width: 800px;
+        }
+        #content .mota {
+            width: 1000px;
+        }
+        #content .mota p{
+            word-spacing: 0.5rem;
+        }
+        span {
+            font-size: 1rem;
+            color: red;
+            word-spacing: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <img src="assets/image/anhbia.png" alt="" class="largeimg">
+        <div class="anhnho">
+            <img src="assets/image/anh1.png" alt="" class="smallimg">
+            <img src="assets/image/anh2.png" alt="" class="smallimg">
+            <img src="assets/image/anh3.jpeg" alt="" class="smallimg">
+            <img src="assets/image/anh4.jpg" alt="" class="smallimg">
+            <img src="assets/image/anh5.png" alt="" class="smallimg">
+            <img src="assets/image/anh6.jfif" alt="" class="smallimg">
+            <img src="assets/image/anh7.jfif" alt="" class="smallimg">
+            <img src="assets/image/anh8.png" alt="" class="smallimg">
+        </div>
+        <script>
+            var smallImg=document.getElementsByClassName('smallimg');
+            var largeImg=document.querySelector('.largeimg');
+            function getImgSrc(e){
+                largeImg.src=e.target.src;
+            }
+            for (var i=0;i<smallImg.length;i++)
+            smallImg[i].onclick=getImgSrc;
+        </script>
+        <div class="mota">
+            <p> <h1>Mô tả sản phẩm</h1>
+                <span> 
+                    *Nội dung trả lời câu hỏi của khách hàng*<br>
+                    Dành cho:<br>
+                    - Những ai muốn hiểu về lịch sử tiến hóa và phát triển của loài người<br>
+                    - Những ai ngưỡng mộ tác giả Yuvai Noah Harari<br>
+                    - Những ai muốn tiếp cận kho kiến thức khổng lồ từ đủ mọi lĩnh vực khoa học<br>
+                </span>
+                <p>
+                    *Gói hàng:<br>
+                        - Bọc bookcare chống bụi<br>
+                        - Gói mút xốp 4 góc để chống bị quăn góc sách<br>
+
+                    *Đổi trả - Bảo hành:<br>
+                        - Đền 200% giá trị sách khi phát hiện sách giả<br>
+                        - Đổi trả miễn phí với những đơn hàng lỗi do nhà sản xuất, bên vận chuyển<br>
+                <h2>*Thông tin quà tặng kèm:</h2><br>
+                        - Bản đặc biệt: Bìa cứng<br>
+                        - Bản thường: Bìa mềm, tặng kèm bookmark.<br>
+                </p>
+                
+                <h2>Sapiens: Lược Sử Loài Người</h2> <br>
+
+                Sapiens, đưa chúng ta vào một chuyến đi kinh ngạc qua toàn bộ lịch sử loài người, từ những gốc rễ tiến hóa của nó đến thời đại của chủ nghĩa tư bản và kỹ thuật di truyền, để khám phá tại sao chúng ta đang trong những điều kiện sinh sống hiện tại. <br>
+                
+                Sapiens tập trung vào các quá trình quan trọng đã định hình loài người và thế giới quanh nó, chẳng hạn như sự ra đời của sản xuất nông nghiệp, việc tạo ra tiền, sự lan truyền của những tôn giáo, và sự nổi lên của những nhà nước quốc gia. Không giống như những quyển sách khác cùng loại, Sapiens đã có một lối tiếp cận liên ngành học, bắc cầu qua những khoảng cách giữa lịch sử, sinh học, triết học và kinh tế theo một lối trước đây chưa từng có. Hơn nữa, lấy cả quan điểm vĩ mô và vi mô, Sapiens không chỉ đề cập đến những gì đã xảy ra và tại sao, mà còn đi sâu vào việc những cá nhân trong lịch sử đó đã cảm nhận nó như thế nào.<br>
+                
+                Câu hỏi lớn và sâu sắc của Harari là: chúng ta thực sự muốn gì? Có cách nào để đạt được hạnh phúc cho con người chúng ta, hoặc thậm chí liệu chúng ta có biết được nó là gì hay không? Trong cốt lõi của nó, Sapiens biện luận rằng chúng ta không biết về bản thân chúng ta, huống chi biết được những nhu cầu của những loài sinh vật khác. Chúng ta đã quá thường xuyên bị những tưởng tượng hư cấu của chúng ta lừa dối. Lịch sử cũng là một hư cấu, nhưng một hư cấu đã được kiềm chế bởi thực tại và biện luận: một hình thức của huyền thoại – một hư cấu hữu ích – khiến nó có thể mang lại sự giác ngộ của sự tự biết chính mình.<br>
+                
+                “Tôi khuyến khích tất cả chúng ta, dẫu có những tin tưởng tín ngưỡng nào, để đặt câu hỏi về những thuật kể cơ bản về thế giới chúng ta, để nối những phát triển ngày xưa với những quan tâm ngày nay, và để không sợ hãi những vấn đề tranh luận” (Yuval Noah Harari) <br>
+                Công ty phát hành Omega Plus<br>
+                Tác giả Yuval Noah Harari<br>
+                Ngày xuất bản 2020<br>
+                Nhà xuất bản Nhà Xuất Bản Tri Thức<br>
+                Dịch Giả Nguyễn Thủy Chung<br>
+                Loại bìa Bìa mềm<br>
+                Số trang 554<br>
+                ------------------<br>
+                Cam kết của chúng tôi:<br>
+                - UY TÍN & TRÁCH NHIỆM với khách hàng là phương châm làm việc của chúng tôi.<br>
+                - Cam kết sách thật, sách chuẩn từ NXB<br>
+                - Đóng gói cẩn thận, vận chuyển nhanh chóng tới độc giả</p>
+        </div>
+    </div>
+    <div id="footer">
+        <p>@Copyright by Lương Công Việt - Thương mại điện tử 60</p>
+    </div>
+</body>
+</html>
